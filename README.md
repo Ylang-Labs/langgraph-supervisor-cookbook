@@ -1,6 +1,6 @@
 # Langgraph Supervisor Cookbook
 
-This project is a Jupyter notebook intended to serve as a cookbook for the `langgraph-supervisor`. It provides examples and documentation to help users effectively utilize the `langgraph-supervisor` in their projects.
+This project contains cookbook for the `langgraph-supervisor`. It provides examples and documentation to help users effectively utilize the `langgraph-supervisor` in their projects.
 
 ## Overview
 
@@ -103,7 +103,7 @@ To run the project with `uv` in VS Code, follow these steps:
 
 ## Usage
 
-Once you have your API key set up, you can start using the `langgraph-supervisor` by following the examples provided in the Jupyter notebook.
+Once you have your API key set up, you can start using the `langgraph-supervisor` by following the examples provided in the Jupyter notebooks.
 
 ## Contributing
 
