@@ -2,6 +2,35 @@
 
 This project is a Jupyter notebook intended to serve as a cookbook for the `langgraph-supervisor`. It provides examples and documentation to help users effectively utilize the `langgraph-supervisor` in their projects.
 
+## Overview
+
+This repository contains a collection of Jupyter notebooks that demonstrate the use of the Langgraph-Supervisor framework for building advanced multi-agent systems. The focus is on creating sophisticated, production-style systems that can handle complex tasks through the orchestration of specialized agents.
+
+### Basics
+
+The `basics.ipynb` notebook introduces the fundamental concepts of the Langgraph-Supervisor framework. It includes:
+
+- **Math and Research Experts**: These agents are designed to work together under the supervision of a central controller, ensuring that tasks are delegated to the most appropriate agent.
+
+![Customer Support Swarm](public/01_customer_support_swarm.png)
+
+- **Customer Support Swarm**: A system that utilizes multiple agents to handle customer support tasks.
+
+![Math and Research Experts](public/01_math_and_research.png)
+
+### Customer Support System
+
+The `customer_support_system.ipynb` notebook showcases a sophisticated multi-agent customer support system. Key features include:
+
+- **Specialized Agents**: The system includes agents for intent classification, FAQ response, troubleshooting, billing, escalation, sentiment analysis, and quality assurance.
+- **Supervisor Orchestration**: A central supervisor routes conversations to the appropriate agent, tracks hand-offs, and enforces quality gates.
+- **Custom Handover Tools**: These tools carry context, reason, and priority when agents transfer a customer.
+- **Rich Toolset**: Includes diagnostics, billing actions, escalation tickets, sentiment analysis, and quality review.
+- **Metrics Tracking**: Monitors interactions, escalations, resolutions, and per-agent usage.
+- **End-to-End Demonstration**: Features three realistic support scenarios to illustrate the system's capabilities.
+
+![Customer Support System](public/02_customer_support_system.png)
+
 ## Getting Started
 
 To get started with the `langgraph-supervisor`, you will need to set up your environment and obtain the necessary API keys.
