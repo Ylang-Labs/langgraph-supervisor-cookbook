@@ -6,7 +6,25 @@ This project is a Jupyter notebook intended to serve as a cookbook for the `lang
 
 To get started with the `langgraph-supervisor`, you will need to set up your environment and obtain the necessary API keys.
 
-## Obtaining API Keys from Google AI Studio
+## Setting Up LLM Providers
+
+To use language models with the `langgraph-supervisor`, you can choose from various providers. Below are instructions for setting up OpenRouter and Google. Feel free to add more providers as needed.
+
+### Using OpenRouter
+
+To use OpenRouter, follow these steps to obtain and set up your API key:
+
+1. **Create an API Key:**
+
+   - Visit the [OpenRouter](https://openrouter.ai) to create a new API key.
+
+2. **Set Up Your API Key:**
+   - Add to your `.env` file:
+   ```bash
+   OPENROUTER_API_KEY=<YOUR_API_KEY_HERE>
+   ```
+
+### Using Google AI Studio
 
 To use the Gemini API, you need an API key. Follow these steps to obtain your API key:
 
@@ -16,12 +34,14 @@ To use the Gemini API, you need an API key. Follow these steps to obtain your AP
    - Click on "Get a Gemini API key" to create a new API key.
 
 2. **Set Up Your API Key:**
-
-   - Add to `.env` file:
-
+   - Add to your `.env` file:
    ```bash
    GEMINI_API_KEY=<YOUR_API_KEY_HERE>
    ```
+
+### Adding More Providers
+
+If you wish to use other LLM providers, please follow their respective documentation to obtain API keys and set them up in your environment.
 
 ## Running with `uv` in VS Code
 
