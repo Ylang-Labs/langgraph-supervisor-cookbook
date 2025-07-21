@@ -80,7 +80,7 @@ To run the project with `uv` in VS Code, follow these steps:
 
    - Run the following command to create a virtual environment:
      ```bash
-     uv create .venv
+     uv venv
      ```
 
 2. **Activate the virtual environment:**
